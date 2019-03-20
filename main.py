@@ -23,7 +23,7 @@ class KBTest(unittest.TestCase):
         self.compare("Fact is not in the KB", actual)
         actual = self.KB.kb_explain(read.parse_input("rule: ((contains bowl flour) (contains bowl water)) -> (contains bowl wetFlour)"))
         self.compare("Rule is not in the KB", actual)
-
+        print("Test 01 Passed")
     def test02(self):
         # asserted
         f1 = read.parse_input("fact: (genls nyala antelope)")
