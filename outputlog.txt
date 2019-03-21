@@ -1,0 +1,22 @@
+TESTS WITH ERRORS 
+test03 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference-ec/gradingtests.py", line 74, in test03
+    self.compare(self.expected, actual)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference-ec/gradingtests.py", line 14, in compare
+    alist = actual.split('\n')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+test04 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference-ec/gradingtests.py", line 136, in test04
+    self.compare(self.expected, actual)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference-ec/gradingtests.py", line 14, in compare
+    alist = actual.split('\n')
+AttributeError: 'NoneType' object has no attribute 'split'
+
+-------------------------------
+TESTS FAILED  
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
